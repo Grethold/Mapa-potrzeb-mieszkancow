@@ -1,0 +1,61 @@
+body
+{
+	font: 12px Arial, Helvetica, sans-serif;
+}
+table
+{
+	border-collapse:collapse;
+}
+table td
+{
+	border: 1px solid #4192AF;
+	border-bottom-color: #6FC2DF;
+	border-left-color: #6FC2DF;
+	background: #DFF7FF;
+}
+table th
+{
+	border: 1px solid #4192AF;
+	background: #1D7D9F;
+	color:white;
+}
+#ex
+{
+	width: 5%;
+}
+form
+{
+	float:left;
+}
+input.sub, input.sub2
+{
+	background: url("edit.png") no-repeat;
+	border: none;
+	color: red;
+	font-size: 10px;
+	cursor:pointer;
+	padding: 1px 5px 5px 9px;
+	font-weight:bold;
+	margin: 3px;
+}
+input.del
+{
+	background: url("del.png") no-repeat;
+	border: none;
+	margin-top: 3px;
+	cursor:pointer;
+}
+input
+{
+	font-size: 12px;
+	border:1px solid #1D7D9F;
+}
+label
+{
+	width: 40px;
+	float:left;
+}
+#add_form
+{
+	margin-top:10px;
+}
